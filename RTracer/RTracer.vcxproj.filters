@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="Shaders\PixelShader.hlsl" />
+    <FxCompile Include="Shaders\PointLightPixelShader.hlsl" />
+    <FxCompile Include="Shaders\PointLightVertexShader.hlsl" />
+    <FxCompile Include="Shaders\SkyBoxShader.hlsl" />
+    <FxCompile Include="Shaders\VertexMeshLayoutShader.hlsl" />
+    <FxCompile Include="Shaders\VertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\AppWindow.cpp" />
+    <ClCompile Include="Engine\Graphics\ConstantBuffer.cpp" />
+    <ClCompile Include="Engine\Graphics\DeviceContext.cpp" />
+    <ClCompile Include="Engine\Graphics\GraphicsEngine.cpp" />
+    <ClCompile Include="Engine\Graphics\IndexBuffer.cpp" />
+    <ClCompile Include="Engine\Graphics\PixelShader.cpp" />
+    <ClCompile Include="Engine\Graphics\RenderSystem.cpp" />
+    <ClCompile Include="Engine\Graphics\SwapChain.cpp" />
+    <ClCompile Include="Engine\Graphics\VertexBuffer.cpp" />
+    <ClCompile Include="Engine\Graphics\VertexShader.cpp" />
+    <ClCompile Include="Engine\InputSystem\InputSystem.cpp" />
+    <ClCompile Include="Engine\ResourceManager\MeshManager.cpp" />
+    <ClCompile Include="Engine\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="Engine\ResourceManager\Resources\Material.cpp" />
+    <ClCompile Include="Engine\ResourceManager\Resources\Mesh.cpp" />
+    <ClCompile Include="Engine\ResourceManager\Resources\Resource.cpp" />
+    <ClCompile Include="Engine\ResourceManager\Resources\Texture.cpp" />
+    <ClCompile Include="Engine\ResourceManager\TextureManager.cpp" />
+    <ClCompile Include="Engine\Utility\Matrix4x4.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\AppWindow.h" />
+    <ClInclude Include="App\Generics.h" />
+    <ClInclude Include="Engine\Graphics\ConstantBuffer.h" />
+    <ClInclude Include="Engine\Graphics\DeviceContext.h" />
+    <ClInclude Include="Engine\Graphics\GraphicsEngine.h" />
+    <ClInclude Include="Engine\Graphics\IndexBuffer.h" />
+    <ClInclude Include="Engine\Graphics\PixelShader.h" />
+    <ClInclude Include="Engine\Graphics\Prerequisites.h" />
+    <ClInclude Include="Engine\Graphics\RenderSystem.h" />
+    <ClInclude Include="Engine\Graphics\SwapChain.h" />
+    <ClInclude Include="Engine\Graphics\VertexBuffer.h" />
+    <ClInclude Include="Engine\Graphics\VertexShader.h" />
+    <ClInclude Include="Engine\InputSystem\InputListener.h" />
+    <ClInclude Include="Engine\InputSystem\InputSystem.h" />
+    <ClInclude Include="Engine\ResourceManager\MeshManager.h" />
+    <ClInclude Include="Engine\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="Engine\ResourceManager\Resources\Material.h" />
+    <ClInclude Include="Engine\ResourceManager\Resources\Mesh.h" />
+    <ClInclude Include="Engine\ResourceManager\Resources\Resource.h" />
+    <ClInclude Include="Engine\ResourceManager\Resources\Texture.h" />
+    <ClInclude Include="Engine\ResourceManager\TextureManager.h" />
+    <ClInclude Include="Engine\Utility\Matrix4x4.h" />
+    <ClInclude Include="Engine\Utility\Point.h" />
+    <ClInclude Include="Engine\Utility\Vector2.h" />
+    <ClInclude Include="Engine\Utility\Vector3.h" />
+    <ClInclude Include="Engine\Utility\Vector4.h" />
+    <ClInclude Include="Engine\Utility\VertexMesh.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Libs\tinyobjloader\include\tiny_obj_loader.h" />
+  </ItemGroup>
+</Project>
